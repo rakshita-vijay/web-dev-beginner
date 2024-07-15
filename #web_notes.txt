@@ -12,3 +12,23 @@ tag: enclosed in <>
 
 heading tag: <h1>, </h1>
 paragraph tag: <p>, </p>
+horizontal rule element: <hr /> or <hr> (inserts a line)
+break element: <br /> or <br>
+
+unordered list tag: <ul>, </ul>
+                    syntax: <ul>
+                                <li> </li>
+                                <li> </li>
+                                    .
+                                    .
+                                    .
+                            </ul>
+
+ordered list tag: <ol>, </ol>
+                  syntax: <ol>
+                              <li> </li>
+                              <li> </li>
+                                  .
+                                  .
+                                  .
+                          </ol>
