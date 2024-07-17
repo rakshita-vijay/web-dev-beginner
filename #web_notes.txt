@@ -10,6 +10,8 @@ html: uses hyperlinks
 element: opening tag + content + closing tag
 tag: enclosed in <>
 
+// ~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+
 heading tag: <h1>, </h1>
 paragraph tag: <p>, </p>
 horizontal rule element: <hr /> or <hr> (inserts a line)
@@ -32,3 +34,18 @@ ordered list tag: <ol>, </ol>
                                   .
                                   .
                           </ol>
+
+anchor element: <a>, </a>
+                syntax: <a attribute=value>, </a>
+                ex: <a href="https://web.whatsapp.com/">WhatsApp</a>
+
+void elements:
+      horizontal rule element: <hr /> or <hr> (inserts a line)
+      break element: <br /> or <br>
+      image element: <img src="url" alt="small_description"> (enter a url, and a small description[Alternate Text Description])
+
+// ~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+
+multi-page websites: made up of webpages
+                     multiple files stored in the same folder
+                     ex: index.html, about.html, contact.html
