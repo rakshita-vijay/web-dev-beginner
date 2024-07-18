@@ -5,7 +5,8 @@ code files: html, css, js
 
 // ~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
 
-html: uses hyperlinks
+html: hyper-text markup language
+      uses hyperlinks
 
 element: opening tag + content + closing tag
 tag: enclosed in <>
@@ -49,3 +50,7 @@ void elements:
 multi-page websites: made up of webpages
                      multiple files stored in the same folder
                      ex: index.html, about.html, contact.html
+
+// ~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+
+css: cascading style sheets
