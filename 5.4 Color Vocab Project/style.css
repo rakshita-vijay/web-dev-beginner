@@ -1,0 +1,43 @@
+h1 {
+  color: rgb(115, 44, 214);
+  font-size: 4em;
+}
+
+.center-align {
+  text-align: center;
+}
+
+html {
+  background-color: aliceblue;
+}
+
+/* ~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~* */
+
+#red {
+  color: red;
+}
+
+#blue {
+  color: blue;
+}
+
+#orange {
+  color: orange;
+}
+
+#green {
+  color: green;
+}
+
+#yellow {
+  color: yellow;
+}
+
+.color-title {
+  font-weight: normal;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+}

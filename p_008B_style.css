@@ -1,0 +1,7 @@
+h2[draggable="true"] {
+  color: blue;
+}
+
+h2[draggable="false"] {
+  color: green;
+}

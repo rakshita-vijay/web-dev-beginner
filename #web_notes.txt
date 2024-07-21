@@ -54,3 +54,63 @@ multi-page websites: made up of webpages
 // ~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
 
 css: cascading style sheets
+
+css tags:
+        inline: for 1 element
+                written in the boilerplate tag
+
+                <tag style="css" />
+                == <tag attribute="property: value">, </tag>
+
+        internal: for 1 webpage
+                  generally not used if multi-page website
+                  written inside <head>, </head>
+
+                  <style> css </style>
+                  == <style>
+                       selector {   (html)
+                         property: value;
+                       }
+                     </style>
+
+        external: for multi-page websites
+                  generally used if multi-page website
+                  saved in separate file (<...>.css)
+
+                  <link rel="stylesheet" href="./style.css" />
+                  == <html>
+                       <head>
+                         <link
+                           rel="stylesheet"
+                           href="./style.css"
+                         />
+                       </head>
+                     </html>
+
+                  calls file 'style.css' which contains:
+                                                        selector {   (html)
+                                                          property: value;
+                                                        }
+
+// ~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+
+in the external css files:
+-------------------------
+element selector: h1 {}, h2 {}, h3 {}, etc
+
+class selector: applied to many elements in a html file (specified in the opening tag)
+
+                .<user-defined-class> {
+                  property: value;
+                }
+
+
+ID selector: applied to a single element in a html file (specified in the opening tag)
+
+             #<user-defined-ID> {
+               property: value;
+             }
+
+attribute selector: <html_element>[attribute] {
+                      property: value
+                    }
