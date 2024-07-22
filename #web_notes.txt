@@ -56,6 +56,7 @@ multi-page websites: made up of webpages
 css: cascading style sheets
 
 css tags:
+--------
         inline: for 1 element
                 written in the boilerplate tag
 
@@ -67,11 +68,15 @@ css tags:
                   written inside <head>, </head>
 
                   <style> css </style>
-                  == <style>
-                       selector {   (html)
-                         property: value;
-                       }
-                     </style>
+                  == <html>
+                       <head>
+                         <style>
+                           selector {   (html)
+                             property: value;
+                           }
+                         </style>
+                       </head>
+                     </html>
 
         external: for multi-page websites
                   generally used if multi-page website
@@ -114,3 +119,21 @@ ID selector: applied to a single element in a html file (specified in the openin
 attribute selector: <html_element>[attribute] {
                       property: value
                     }
+
+universal selector: * {
+                      property: value;
+                    }
+
+// ~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+
+color: changes text color
+background-color: changes background color
+text-align: to align left/center/right/justify
+value="x": to start the ordered list from x
+
+height: x%
+weight: y%
+border: thickness style color
+border-width:
+
+// ~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
