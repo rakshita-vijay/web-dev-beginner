@@ -133,7 +133,18 @@ value="x": to start the ordered list from x
 
 height: x%
 weight: y%
+
 border: thickness style color
-border-width:
+        == color (for easy remembrance)
+border-width: dim1 dim2 dim3 dim4; or dim1 dim2;
+              == 4 dimensions (goes clockwise) or 2 dimensions (top&bottom, lhs&rhs)
+              == 4-2 method
+
+padding: between body/content and border
+         4-2 method works here
+margin: outide border
+        4-2 method works here
+
+for specificity: can write x-top or x-bottom
 
 // ~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
