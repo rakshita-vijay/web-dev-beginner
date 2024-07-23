@@ -1,0 +1,6 @@
+code files: html, css, js
+            html: content of website (text, images, links, buttons)
+            css: design of website (style of content)
+            js: functionality of website (converts static -> usable. helps to do things)
+
+// ~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
