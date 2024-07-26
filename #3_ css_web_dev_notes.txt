@@ -54,15 +54,16 @@ class selector: applied to many elements in a html file (specified in the openin
                   property: value;
                 }
 
-
 ID selector: applied to a single element in a html file (specified in the opening tag)
 
              #<user-defined-ID> {
                property: value;
              }
 
-attribute selector: <html_element>[attribute] {
-                      property: value
+attribute selector: applied for specificity (specified in the opening tag)
+
+                    <html_element>[attribute] {
+                      property: value;
                     }
 
 universal selector: * {
@@ -151,6 +152,33 @@ z-index: highest index sits on top of other elements
 
 // ~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
 
+property: display
+          syntax: 'display: inline / block / inline-block / grid / ...'
+
+inline: default;
+        only the width of the text;
+        consecutive chunks are placed in the same line
+
+block: shape of a square;
+       consecutive chunks are placed in separate lines
+
+inline-block: can set width and height;
+              consecutive chunks are placed in the same line
+
+grid: forms a container of boxes
+
+// ~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+
 float: allows images to get wrapped around byv text
 
 clear: clears content of the responsibility to wrap around
+
+// ~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+
+responsive websites: media queries, css grid, css flexbox, bootstrap
+
+// ~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+
+grid-template-columns: <x>fr <x>fr;
+                       x is the fraction (fr)
+                       repeated <no_of_columns> times
