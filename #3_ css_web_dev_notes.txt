@@ -148,3 +148,9 @@ absolute positioning: relative to nearest positioned ancestor (or) top left corn
 fixed positioning: relative to top left corner of webpage
 
 z-index: highest index sits on top of other elements
+
+// ~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+
+float: allows images to get wrapped around byv text
+
+clear: clears content of the responsibility to wrap around

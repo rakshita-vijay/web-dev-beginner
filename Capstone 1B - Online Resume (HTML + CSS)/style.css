@@ -1,0 +1,71 @@
+#pseudo-header-details {
+  text-align: center;
+}
+
+#name {
+  font-family: "Oswald", sans-serif;
+  font-size: 60px;
+  font-weight: 950;
+  font-style: normal;
+  color: black;
+}
+
+.thick-blue-font {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: blue;
+}
+
+h3 {
+  font-family: "Lato", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  font-style: normal;
+  text-decoration: underline;
+}
+
+ul {
+  font-size: 16px;
+}
+
+.course-grade-exam {
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+}
+
+.b-i-grade-marks {
+  font-family: "Merriweather", serif;
+  font-size: 15px;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.date {
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  float: right;
+  color: grey;
+}
+
+.thin-blue-font {
+  font-family: "Lato", sans-serif;
+  font-size: 16.5px;
+  font-weight: 700;
+  font-style: normal;
+  color: blue;
+}
+
+.role {
+  font-weight: 700;
+}
+
+.work-done {
+  font-style: italic;
+}
+
+.sub-heading {
+  font-weight: 550;
+  display: clear;
+}
