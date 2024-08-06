@@ -179,6 +179,27 @@ responsive websites: media queries, css grid, css flexbox, bootstrap
 
 // ~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
 
-grid-template-columns: <x>fr <x>fr;
-                       x is the fraction (fr)
-                       repeated <no_of_columns> times
+media queries: @media (property: value) {
+                 <css code>
+               }
+
+grid:
+      grid-template-columns: <x>fr <y>fr
+                             (x, y is the fraction (fr));
+                            repeated <no_of_columns> times
+
+      grid-template-rows: <x>px <y>px;
+                          repeated <no_of_rows> times
+
+      gap: '<x>px;' or '<x>px <y>px;'
+           gap between rows and/or columns
+
+      span: one 'box' spans multiple columns
+            syntax: grid-column: span <x>;
+
+flexbox: resizes objects in ratios specified
+         syntax: 'display: flex;'
+                 'flex: x;'
+
+bootstrap: screen is divided into 12 sections
+           in class, if 'col-x' is written, the div takes up x out of 12 sections
