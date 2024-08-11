@@ -183,7 +183,7 @@ media queries: @media (property: value) {
                  <css code>
                }
 
-grid:
+grid: for horizontal and vertical (?)
       grid-template-columns: <x>fr <y>fr
                              (x, y is the fraction (fr));
                             repeated <no_of_columns> times
@@ -197,7 +197,8 @@ grid:
       span: one 'box' spans multiple columns
             syntax: grid-column: span <x>;
 
-flexbox: resizes objects in ratios specified
+flexbox: for horizontal (?)
+         resizes objects in ratios specified
          syntax: 'display: flex;'
                  'flex: x;'
 
