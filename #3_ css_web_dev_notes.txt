@@ -153,7 +153,7 @@ z-index: highest index sits on top of other elements
 // ~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
 
 property: display
-          syntax: 'display: inline / block / inline-block / grid / ...'
+          syntax: 'display: inline / block / inline-block / grid / flex / ...'
 
 inline: default;
         only the width of the text;
@@ -183,10 +183,18 @@ media queries: @media (property: value) {
                  <css code>
                }
 
+               @media screen (property: value) {   // default
+                 <css code>
+               }
+
+               @media print (property: value) {   // when website is being printed
+                 <css code>
+               }
+
 grid: for horizontal and vertical (?)
       grid-template-columns: <x>fr <y>fr
                              (x, y is the fraction (fr));
-                            repeated <no_of_columns> times
+                             repeated <no_of_columns> times
 
       grid-template-rows: <x>px <y>px;
                           repeated <no_of_rows> times
@@ -204,3 +212,22 @@ flexbox: for horizontal (?)
 
 bootstrap: screen is divided into 12 sections
            in class, if 'col-x' is written, the div takes up x out of 12 sections
+
+// ~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+
+<span> is used to mark up a part of a text, or a part of a document.
+<div> is a block-level element and <span> is an inline element.
+
+// ~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+
+'object-fit: cover;' : image takes up the entire allotted space; if screen size is increased more, image gets bigger in the same space
+
+// ~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+
+float: used for margin-style layouts
+       image to the left/right of a block of text, not for complex layouts
+flexbox: used for complex layouts, overall page structure
+
+flexbox display alignment: based on content size, not on individual item's display type
+
+display can also be set as inline-flex - another item can also occupy the available space on right (if any)
