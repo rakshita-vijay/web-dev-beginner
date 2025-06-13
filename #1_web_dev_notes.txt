@@ -4,3 +4,5 @@ code files: html, css, js
             js: functionality of website (converts static -> usable. helps to do things)
 
 // ~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
+
+extensions: live preview
